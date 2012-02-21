@@ -32,7 +32,7 @@
 - (void)requestFile:(NSString *)filename;
 
 - (void)sendValue:(NSString *)value forKey:(NSString *)key;
-- (void)sendValues:(NSArray *)values forKey:(NSArray *)keys;
+- (void)sendValues:(NSArray *)values forKeys:(NSArray *)keys;
 - (void)sendValuesAndKeys:(NSString *)firstValue, ...;
 
 @end
