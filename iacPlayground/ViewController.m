@@ -34,7 +34,7 @@
     // Send KV
     [[iAC sharedInstance] sendValue:@"v1" forKey:@"k1"];
     //[[iAC sharedInstance] sendValues:[NSArray arrayWithObjects:@"v1", @"v1", nil]
-    //                          forKey:[NSArray arrayWithObjects:@"k2", @"k3", nil]];
+    //                         forKeys:[NSArray arrayWithObjects:@"k2", @"k3", nil]];
     //[[iAC sharedInstance] sendValuesAndKeys:@"v1", @"k4", @"v1", @"k5", nil];
 }
 
