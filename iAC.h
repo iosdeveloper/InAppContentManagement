@@ -33,6 +33,6 @@
 
 - (void)sendValue:(NSString *)value forKey:(NSString *)key;
 - (void)sendValues:(NSArray *)values forKeys:(NSArray *)keys;
-- (void)sendValuesAndKeys:(NSString *)firstValue, ...;
+- (void)sendValuesAndKeys:(NSString *)firstValue, ... NS_REQUIRES_NIL_TERMINATION;
 
 @end
